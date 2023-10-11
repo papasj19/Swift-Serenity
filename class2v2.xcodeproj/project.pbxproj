@@ -13,6 +13,8 @@
 		00B5ACD12AC4946100DD2A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B5ACCF2AC4946100DD2A1C /* Main.storyboard */; };
 		00B5ACD32AC4946200DD2A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B5ACD22AC4946200DD2A1C /* Assets.xcassets */; };
 		00B5ACD62AC4946200DD2A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B5ACD42AC4946200DD2A1C /* LaunchScreen.storyboard */; };
+		00B5ACDE2AC4995100DD2A1C /* SecondViewContViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5ACDD2AC4995100DD2A1C /* SecondViewContViewController.swift */; };
+		00B5ACE02AC4A1B700DD2A1C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5ACDF2AC4A1B700DD2A1C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		00B5ACD22AC4946200DD2A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00B5ACD52AC4946200DD2A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B5ACD72AC4946200DD2A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B5ACDD2AC4995100DD2A1C /* SecondViewContViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewContViewController.swift; sourceTree = "<group>"; };
+		00B5ACDF2AC4A1B700DD2A1C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		00B5ACC82AC4946100DD2A1C /* class2v2 */ = {
 			isa = PBXGroup;
 			children = (
+				00B5ACDD2AC4995100DD2A1C /* SecondViewContViewController.swift */,
 				00B5ACC92AC4946100DD2A1C /* AppDelegate.swift */,
 				00B5ACCB2AC4946100DD2A1C /* SceneDelegate.swift */,
 				00B5ACCD2AC4946100DD2A1C /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				00B5ACD22AC4946200DD2A1C /* Assets.xcassets */,
 				00B5ACD42AC4946200DD2A1C /* LaunchScreen.storyboard */,
 				00B5ACD72AC4946200DD2A1C /* Info.plist */,
+				00B5ACDF2AC4A1B700DD2A1C /* ThirdViewController.swift */,
 			);
 			path = class2v2;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				00B5ACCE2AC4946100DD2A1C /* ViewController.swift in Sources */,
 				00B5ACCA2AC4946100DD2A1C /* AppDelegate.swift in Sources */,
+				00B5ACE02AC4A1B700DD2A1C /* ThirdViewController.swift in Sources */,
 				00B5ACCC2AC4946100DD2A1C /* SceneDelegate.swift in Sources */,
+				00B5ACDE2AC4995100DD2A1C /* SecondViewContViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

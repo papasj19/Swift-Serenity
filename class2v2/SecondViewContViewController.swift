@@ -9,13 +9,20 @@ import UIKit
 
 class SecondViewContViewController: UIViewController {
 
+
+    
+    @IBOutlet weak var images: UIImageView!
+    @IBOutlet weak var but_goback: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+            
     }
     
-
+    @IBAction func touch_GB(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
